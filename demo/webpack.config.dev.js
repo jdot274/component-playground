@@ -7,7 +7,9 @@ module.exports = {
 
   devServer: {
     contentBase: __dirname,
-    noInfo: false
+    noInfo: false,
+    publicPath: "/assets/",
+    historyApiFallback: true
   },
 
   output: {
